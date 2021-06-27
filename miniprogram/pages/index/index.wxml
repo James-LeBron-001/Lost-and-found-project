@@ -1,1 +1,0 @@
-<button bindtap="getData" type="primary">获取</button>
