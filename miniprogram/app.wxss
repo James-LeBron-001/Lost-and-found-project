@@ -1,0 +1,40 @@
+.container{
+  padding: 0 26px;
+  box-sizing: border-box;
+}
+page{
+  background-color: rgb(240, 240, 240);
+}
+.header{
+  width: 750rpx;
+  height: 120rpx;
+  background-color: white;
+}
+.hdCon{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  margin-left: -30rpx;
+}
+.hdCon image{
+  height: 100%;
+}
+.hdCon navigator{
+  height: 80%;
+}
+.hdCon .cs{
+  height: 50%;
+  margin-left: 280rpx;
+}
+.cs .csButton{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:  0;
+  left: 0;
+  opacity: 0;
+}
+.cs{
+  position: relative;
+}

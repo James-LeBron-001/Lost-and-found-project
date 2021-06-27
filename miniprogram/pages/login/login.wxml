@@ -1,0 +1,6 @@
+<view style="width: 750rpx; height: auto; display: block; box-sizing: content-box; left: NaNrpx; top: NaNrpx">
+<image src="../../images/pic2.jpg" style="width: 750rpx; height: 1210rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+</image>
+  <button bindtap="login" class="login" type="primary" style="position: relative; left: 0rpx; top: -422rpx">登录以开始使用</button>
+
+</view>

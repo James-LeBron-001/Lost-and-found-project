@@ -1,0 +1,24 @@
+/* pages/sousuo/sousuo.wxss */
+.kuang {
+  /* width: 100px; */
+  height: 50px;
+  border: 1px solid gray;
+  text-align: center;
+  line-height: 50px;
+}
+.ok{
+  width: 20px;
+  height: 30px;
+  line-height: 15px;
+  text-align: center;
+}
+.ai {
+  border-top:pink 3px solid;
+  font-size: 18px;
+  font-family: "宋体";
+}
+.title {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}

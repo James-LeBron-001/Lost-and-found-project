@@ -1,0 +1,14 @@
+<!--pages/sousuo/sousuo.wxml-->
+<view>
+  <input type="text"  placeholder="请输入想要搜索的物品信息" class="kuang" bindinput="abc"/>
+  <text>\n</text>
+  <button type="primary" class="ok" bindtap="btnclick">查找</button>
+  <text>\n</text>
+  <view wx:for="{{dataObj}}" class="ai" wx:key="index">
+<view class="title"><text>\n</text>标题：{{item.title}}</view>
+<view><text>\n</text>联系方式：{{item.conInf}}</view>
+<view><text>\n</text>详细信息：{{item.moreInf}}</view>
+<image src="{{item.fileID[0]}}"></image>
+<text>\n\n</text>
+</view>
+</view>

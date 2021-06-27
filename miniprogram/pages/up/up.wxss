@@ -1,0 +1,86 @@
+
+.outer{
+  width: 100%;
+  margin-top: 30rpx;
+}
+.imgList{
+  border: 1px dashed gray;
+  height: 230rpx;
+  width: 630rpx;
+  margin: 0 auto;
+}
+.sinPic{
+  width: 170rpx;
+  height: 170rpx;
+  position: relative;
+}
+.box{
+  width: 170rpx;
+  height: 170rpx;
+  display: inline-block;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+}
+.cancle{
+  position: absolute;
+  width: 30rpx;
+  margin-top: -15rpx;
+  margin-left: -15rpx;
+}
+
+.kind{
+  height: 150rpx;
+  border: 1px solid gray;
+}
+.descri{
+  height: 50rpx;
+}
+.kind radio-group{
+  height: 100rpx;
+  padding-left: 30rpx;
+}
+.kind radio{
+  margin-top: 25rpx;
+  margin-right: 50rpx;
+}
+.inbox .title,.conInf{
+  height: 70rpx;
+}
+.inbox .title{
+  margin-top: -25rpx;
+}
+.inbox input{
+  height: 70rpx;
+  padding-left: 30rpx;
+  margin: 0 auto;
+  width: 90%;
+  border-bottom: 1px solid gray;
+  margin-top: 20rpx;
+}
+.inbox textarea{
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid gray;
+  padding-left: 30rpx;
+  padding-top: 20rpx;
+  margin-top: 20rpx;
+}
+.moreInf{
+  height: 250rpx;
+  margin-top: 20rpx;
+}
+page{
+  background-color: white;
+}
+.inbox{
+  border: 1px solid gray;
+  margin-top: 50rpx;
+  padding-top: 30rpx;
+  height: 540rpx;
+}
+.submit{
+  margin-top: 30rpx;
+}
+.choimg{
+  margin-top: 50rpx;
+}

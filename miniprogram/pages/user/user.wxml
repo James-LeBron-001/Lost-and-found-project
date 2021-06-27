@@ -1,0 +1,25 @@
+<view class="header">
+  <view class="container hdCon">
+    <navigator class="logo" url="/pages/index/index" open-type="switchTab">
+      <image src="/images/grapefruit.png" mode="heightFix"></image>
+    </navigator>
+    <view class="cs">
+      <button class="csButton" open-type="contact"></button>
+      <image src="/images/cs.png" mode="heightFix" class="pic"></image>
+    </view>
+  </view>
+</view>
+
+
+<view class="box">
+  <view class="userInf">
+    <image class="userPic" src="{{avatarUrl}}" mode="heightFix"></image>
+    <view class="userName">{{nickName}}</view>
+  </view>
+</view>
+
+<navigator url="/pages/pastPublish/pastPublish">
+  <view class="pastPublish">
+    发布的信息
+  </view>
+</navigator>

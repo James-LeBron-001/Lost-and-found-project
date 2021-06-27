@@ -1,0 +1,23 @@
+
+.box{
+  display: flex;
+  justify-content: space-between;
+  height: 400rpx;
+  margin-bottom: 40rpx;
+  border: 1px solid black;
+  background-color: white;
+}
+.text {
+  word-wrap:break-word;
+  width: 200rpx;
+  padding-left: 20rpx;
+  padding-top: 50rpx;
+  border-right: 1px solid black;
+}
+.img{
+  height: 100%;
+}
+.img image{
+  width: 500rpx;
+  height: 100%;
+}

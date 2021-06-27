@@ -1,0 +1,22 @@
+
+<view class="header">
+  <view class="container hdCon">
+    <navigator class="logo" url="/pages/index/index" open-type="reLaunch">
+      <image src="/images/grapefruit.png" mode="heightFix"></image>
+    </navigator>
+    <view class="cs">
+      <button class="csButton" open-type="contact"></button>
+      <image src="/images/cs.png" mode="heightFix" class="pic"></image>
+    </view>
+  </view>
+</view>
+
+<view wx:for="{{dataArr}}" wx:key="index" wx:if="{{item.kind=='st'}}" bindtap="moreinf" class="box" data-index="{{index}}">
+  <view class='text'>
+    {{item.title}}
+  </view>
+  <view class='img'>
+    <image src="{{item.fileID[0]}}" mode="aspectFit" wx:if="{{item.fileID.length>0}}"></image>
+    <image src="" mode="aspectFit" wx:if="{{item.fileID.length==0}}" src="/images/default.jpg"></image>
+  </view>
+</view>

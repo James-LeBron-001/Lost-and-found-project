@@ -1,0 +1,35 @@
+<view class="header">
+  <view class="container hdCon">
+    <navigator class="logo" url="/pages/index/index" open-type="reLaunch">
+      <image src="/images/grapefruit.png" mode="heightFix"></image>
+    </navigator>
+    <view class="cs">
+      <button class="csButton" open-type="contact"></button>
+      <image src="/images/cs.png" mode="heightFix" class="pic"></image>
+    </view>
+  </view>
+</view>
+
+<view class="outer">
+  <swiper  autoplay indicator-dots circular previous-margin="20rpx" next-margin="20rpx">
+    <swiper-item wx:for="{{temInf.fileID}}" wx:key="index" wx:if="{{temInf.fileID.length>0}}">
+      <image src="{{item}}" mode="aspectFit" bindtap="preImg" data-index="{{index}}"></image>
+    </swiper-item>
+    <swiper-item wx:if="{{temInf.fileID.length==0}}">
+      <image  src="/images/default.jpg" mode="aspectFit" ></image>
+    </swiper-item>
+  </swiper>
+
+  <view class="inf">
+    <view class="title">
+      标题：{{temInf.title}}
+    </view>
+    <view class="conInf">
+      联系方式：{{temInf.conInf}}
+      <image src="/images/copy.png" class="copy" mode="heightFix" bindtap="copy"></image>
+    </view>
+    <view class="moreInf">详细信息：
+  {{temInf.moreInf}}
+    </view>
+  </view>
+</view>

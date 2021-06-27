@@ -1,0 +1,53 @@
+<view class="header">
+  <view class="container hdCon">
+    <navigator class="logo" url="/pages/index/index" open-type="reLaunch">
+      <image src="/images/grapefruit.png" mode="heightFix"></image>
+    </navigator>
+    <view class="cs">
+      <button class="csButton" open-type="contact"></button>
+      <image src="/images/cs.png" mode="heightFix" class="pic"></image>
+    </view>
+  </view>
+</view>
+
+<view class="outer">
+  <form bindsubmit="btnSub">
+    <view class="kind">
+      <view class="descri">请选择要发布的信息的类型:</view>
+      <radio-group name="kind" bindchange="choKind">
+        <radio value="sb" checked>寻人</radio>
+        <radio value="st">寻物</radio>
+      </radio-group>
+    </view>
+
+    <view class="inbox">
+      <view class="title">
+      <scroll-view scroll-x="">
+        <input type="text" focus placeholder="请输入标题(例：在思学楼丢失一副漫步者耳机)" confirm-type="next" name="title" maxlength="20"/>
+      </scroll-view>
+      </view>
+
+      <view class="conInf">
+        <input type="text" placeholder="请输入联系方式(例：'QQ:1234567')" confirm-type="next" name="conInf" maxlength="40"/>
+      </view>
+
+      <view class="moreInf">
+        <scroll-view class="miScroll" scroll-y>
+          <textarea maxlength="-1" cols="20" rows="10" type="text" placeholder="请输入详细信息(要将时间、地点等详细信息描述清楚)" confirm-type="next" name="moreInf"></textarea>
+        </scroll-view>
+      </view>
+    </view>
+    <view class="picture">
+      <button bindtap="up" disabled="{{count==3?true:false}}" class="choimg">选择图片</button>
+      <view class="imgList">
+        <view class="box" wx:for="{{imgSrc}}" wx:key="index">
+          <image src="{{item}}" class="sinPic" mode="aspecthFix"></image>
+          <image class="cancle" bindtap="delete" data-index="{{index}}" src="/images/cancle.png" mode="widthFix">
+          </image>
+        </view>
+      </view>
+    </view>
+
+    <button form-type="submit" type="primary" class="submit">提交</button>
+  </form>
+</view>

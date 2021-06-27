@@ -1,0 +1,48 @@
+<view class="header">
+  <view class="container hdCon">
+    <navigator class="logo" url="/pages/index/index" open-type="reLaunch">
+      <image src="/images/grapefruit.png" mode="heightFix"></image>
+    </navigator>
+    <view class="cs">
+      <button class="csButton" open-type="contact"></button>
+      <image src="/images/cs.png" mode="heightFix" class="pic"></image>
+    </view>
+  </view>
+</view>
+
+<view class="banner">
+  <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" circular autoplay
+    interval="4000">
+    <swiper-item>
+      <image src="/images/banner1.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner1.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner1.png"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+
+<scroll-view class="scroll" scroll-x>
+  <view class="box">
+    <navigator class="navi" url="/pages/findsb/findsb">
+      <image src="/images/findPeo.png" mode="heightFix"></image>
+      <view class="txt">寻人启事</view>
+    </navigator>
+    <navigator class="navi" url="/pages/findst/findst">
+      <image src="/images/findItem.png" mode="heightFix"></image>
+      <view class="txt">寻物启事</view>
+    </navigator>
+    <navigator class="navi" url="/pages/up/up">
+      <image src="/images/publish.png" mode="heightFix"></image>
+      <view class="txt">信息发布</view>
+    </navigator>
+    <navigator class="navi" url="/pages/search/search">
+      <image src="/images/search.png" mode="heightFix"></image>
+      <view class="txt">信息检索</view>
+    </navigator>
+  </view>
+</scroll-view>

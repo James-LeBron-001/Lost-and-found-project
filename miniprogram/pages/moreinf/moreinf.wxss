@@ -1,0 +1,41 @@
+swiper{
+  border: 1px solid gray;
+  height: 350rpx;
+}
+swiper image{
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+}
+.inf{
+  margin-top: 50rpx;
+  border: 1px solid gray;
+}
+.inf .title,.conInf{
+  border-bottom: 1px solid gray;
+  /* height: 70rpx; */
+  line-height: 70rpx;
+  padding-left: 40rpx;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30rpx;
+  padding-bottom: 20rpx;
+}
+.inf .title{
+  margin-top: 40rpx;
+}
+.inf .moreInf{
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  line-height: 70rpx;
+  width: 90%;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin: 0 auto;
+  margin-bottom: 40rpx;
+  word-wrap:break-word
+}
+
+.copy{
+  height: 40rpx;
+}
